@@ -42,9 +42,10 @@ scanf(" %f" , &pib1);
 getchar();
 
 printf("Digite o número de pontos turísticos da cidade 1: ");
-scanf(" %d" ,&pontos1 );
-
 getchar();
+scanf(" %d" , &pontos1 );
+
+printf(" \n \n");
 
 // Cálculos cidade 1
 densidade1 = populacao1 / area1;
@@ -63,13 +64,11 @@ scanf(" %[^\n]" , estado2);
 
 printf("Digite o código da cidade2: ");
 scanf(" %d" , &codigo2);
-
-getchar(); // limpa \n
+getchar();
 
 
 printf("Digite a população da cidade2: ");
 scanf(" %d" , &populacao2);
-
 getchar();
 
 printf("Digite a área da cidade 2 em km² ");
@@ -83,8 +82,10 @@ scanf(" %f" , &pib2);
 getchar();
 
 printf("Digite o número de pontos turísticos da cidade 2: ");
-scanf(" %d" ,&pontos2);
 getchar();
+scanf(" %d" , &pontos2);
+
+
 
 // Cálculos cidade 2
 densidade2 = populacao2 / area2;
